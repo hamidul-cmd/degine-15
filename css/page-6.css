@@ -1,0 +1,53 @@
+.page6 {
+    padding: 160px 200px;
+    display: flex;
+    flex-direction: column;
+}
+.page6 .top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.page6 .top a {
+    font-size: var(--fs-link);
+    font-weight: 700;
+    color: var(--primare-color);
+}
+.page6 .top h3 {
+    font-size: var(--fs-h3);
+    font-weight: 700;
+    color: var(--font-color);
+}
+.page6 .top p {
+    font-size: var(--fs-link);
+    font-weight: 400;
+    color: var(--sec-font-color);
+}
+.page6 .container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.page6 .form {
+    justify-self: center;
+    text-align: center;
+}
+.page6 .form #email {
+    width: 515px;
+    height: 58px;
+    border: 2px solid #f3f3f3;
+    background-color: #f9f9f9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.page6 .form button {
+    padding: 17px 22px;
+    font-size: 14px;
+    color: white;
+    line-height: 28px;
+    background-color: var(--primare-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+}

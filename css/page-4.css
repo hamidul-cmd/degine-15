@@ -1,0 +1,60 @@
+.page4 {
+    padding: 160px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 0;
+}
+.page4 .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page4 .bottom .box {
+    height: 328px;
+    width: 317px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.page4 .bottom .box .comment {
+    padding: 30px 69.5px;
+}
+
+.page4 .bottom .box .comment .stare {
+    display: flex;
+    justify-content: center;
+}
+
+.page4 .bottom .box .comment .stare i {
+    font-size: 22px;
+    color: #F3CD03;
+}
+
+.page4 .bottom .box .comment p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: var(--fs-link);
+    color: var(--sec-font-color);
+    font-weight: 400;
+    padding: 8px;
+
+}
+
+.page4 .bottom .box .profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.page4 .bottom .box .profile .name h6 {
+    font-size: var(--fs-link);
+    font-weight: 700;
+    color: var(--primare-color);
+}
+.page4 .bottom .box .profile .name small {
+    color: var(--font-color);
+}

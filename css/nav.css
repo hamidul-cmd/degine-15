@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 145px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.manu a {
+    font-size: var(--fs-link);
+    font-weight: 700;
+    color: var(--sec-font-color);
+    line-height: 24px;
+}
+.manu {
+    display: flex;
+    gap: 20px;
+    padding-block: 17px;
+}
+nav .btn a {
+    color: var(--primare-color);
+    font-size: var(--fs-link);
+    font-weight: 700;
+    margin-right: 45px;
+}
+nav button {
+    font-size: var(--fs-link);
+    line-height: 22px;
+    color: white;
+    font-weight: 700;
+    background-color: var(--primare-color);
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+nav button i {
+    margin-left: 15px;
+}

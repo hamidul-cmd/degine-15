@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+* p {
+    margin: 0;
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+h1 {
+    color: var(--font-color);
+}
+:root {
+    --font-color: #252B42;
+    --sec-font-color:#737373;
+    --primare-color: #96BB7C;
+    --sec-color: #E74040;
+    --third-color:#FFF2F3;
+    
+}
+:root {
+    --fs-link: 14px;
+    --fs-h3: 24px;
+    --fs-h1: 58px;
+    --fs-h2: 40px;
+    --fs-h4: 20px;
+    --fs-h5: 16px;
+    --fs-para: 14px;
+
+}

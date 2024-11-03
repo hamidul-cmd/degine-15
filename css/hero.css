@@ -1,0 +1,120 @@
+.hero {
+  height: 100vh;
+  background-image: url(background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16px 0px;
+  background-color: #FAFAFA;
+}
+
+.hero .top {
+  margin-top: 80px;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-left: 145PX;
+}
+
+.hero .top a {
+  font-size: var(--fs-h5);
+  color: var(--primare-color);
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.hero .top h1 {
+  font-size: var(--fs-h1);
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+}
+.hero .top h4 {
+  font-size: var(--fs-h4);
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: var(--sec-font-color);
+}
+.hero .top .btn {
+  display: flex;
+  gap: 10px;
+}
+.hero .top .btn .btn-1 {
+  background-color: var(--primare-color);
+  font-size: var(--fs-link);
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+.hero .top .btn .btn-2 {
+  background-color: transparent;
+  border: 1.7px solid var(--primare-color);
+  color: var(--primare-color);
+  font-size: var(--fs-link);
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  padding: 15px 40px;
+  border-radius: 5px;
+}
+.hero .bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-top: 100px;
+  padding: 0px 145px;
+}
+.hero .bottom .box{
+width: 328px;
+height: 296px;
+background-color: white;
+padding: 35px 40px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.hero .bottom .box .logo {
+  height: 72px;
+  width: 72px;
+  border-radius: 50%;
+  background-color: var(--sec-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .bottom .box .logo i {
+   font-size: 32px;
+   color: white
+}
+.hero .bottom .box h3 {
+  font-size: var(--fs-h3);
+  color: var(--font-color);
+  line-height: 32px;
+  letter-spacing: 0.1px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.hero .bottom .box  .saparation {
+  height: 2px;
+  width: 50px;
+  background-color: var(--sec-color);
+}
+.hero .bottom .box p {
+  font-size: var(--fs-link);
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  color: var(--sec-font-color);
+  padding-right: 30px;
+}
